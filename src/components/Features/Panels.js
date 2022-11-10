@@ -21,11 +21,11 @@ const Panels = (props)=>{
             {props.text}
           </p>
           <div className="mx-auto md:mx-0">
-            <a
+            <button
               href
               className="px-6 py-3 mt-4 font-semibold text-white border-2 border-white rounded-lg md:inline-flex bg-softBlue hover:bg-white hover:text-softBlue hover:border-softBlue hover:border-2"
-              >More Info</a
-            >
+              >More Info</button>
+            
           </div>
         </div>
       </div>)
